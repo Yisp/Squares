@@ -34,6 +34,12 @@ function Square() {
 
 var squares = [];
 
+function preLoad() {
+
+	song = loadSound("Sounds/bulletTrain.mp3");
+	
+}
+
 function setup() {
 
 	frameRate(60);
@@ -42,6 +48,12 @@ function setup() {
 }
 
 function draw() {
+	
+	if (!song.isPlaying()) {
+
+		song.play();
+
+	}
 
 	background(0);
 
