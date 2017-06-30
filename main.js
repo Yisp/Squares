@@ -34,7 +34,7 @@ function Square() {
 
 var squares = [];
 
-function preLoad() {
+function preload() {
 
 	song = loadSound("Sounds/bulletTrain.mp3");
 	
