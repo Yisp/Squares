@@ -43,7 +43,7 @@ function preload() {
 function setup() {
 
 	frameRate(60);
-	createCanvas(1360, 768);
+	createCanvas(displayWidth, displayHeight);
 	background(0);
 }
 
